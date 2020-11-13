@@ -2,12 +2,15 @@
 
 .nav-panel-list {
   margin: 10px 0px;
+ 
+
 }
 
 .nav-panel-list li {
   min-height: 28px;
   width: 165px;
   height: 28px;
+  
 }
 
 .nav-panel-list a {
