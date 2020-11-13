@@ -5,18 +5,29 @@
 	height: 43px;
 	z-index: 1;
 	margin-bottom: 15px;
+
 }
 
+
+
 .nav_top {
-	height: 100%;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
+
+}
+
+.nav_items{
+	display: block;
+	align-items: center;
 }
 
 .nav_top a {
 	height: 43px;
+
 }
 
 .logo {
+	height:43px;
 	width: 165px;
-	height: 43px;
 }
