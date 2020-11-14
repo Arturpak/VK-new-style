@@ -2,15 +2,12 @@
 
 .nav-panel-list {
   margin: 10px 0px;
- 
-
 }
 
-.nav-panel-list li {
-  min-height: 28px;
+.navigation-item {
+  min-height:28px;
   width: 165px;
   height: 28px;
-  
 }
 
 .nav-panel-list a {
@@ -19,7 +16,7 @@
   height: 100%;
   width: 100%;
   border-radius: 6px;
-  color: #2e2e2e;
+  color: rgb(46, 46, 46);
 }
 
 .nav-icon {
@@ -27,12 +24,31 @@
   margin: 0 5px;
 }
 
+.dividing_lines_container{
+  margin: 5px 0;
+  width: 100%;
+  height: 10px;
+
+ 
+}
+
+.dividing_line{
+  width: 137px;
+  height: 1px;
+  margin: 5px 0;
+  margin-left: 28px;
+  border: none;
+  background-color: rgba(46, 46, 46, 0.212);
+  align-items: center;
+}
+
+
 .nav-panel-list a:hover {
   background-color: hsla(0, 0%, 0%, 0.05);
   color: rgb(255, 255, 255);
 }
 
-.narrow_collum {
+.narrow_colum {
   margin: auto 25px;
 }
 

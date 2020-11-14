@@ -51,6 +51,7 @@ img {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+height: 100%;
 }
 
 @media screen and (max-width: 1200px) {
