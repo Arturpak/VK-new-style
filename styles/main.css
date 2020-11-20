@@ -9,13 +9,9 @@
 .navigation-panel{
   margin-top: 60px;
 }
+
 .nav-panel-list {
   width: 175px;
-}
-
-.nav-panel-list a:hover {
-  background-color: hsla(0, 0%, 0%, 0.05);
-  color: rgb(255, 255, 255);
 }
 
 .nav-item {
@@ -33,6 +29,11 @@
   color: #2e2e2e;
 }
 
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #2787f5;
+}
+
 .nav-icon {
   height: 62%;
   margin: 0 5px;
@@ -42,9 +43,10 @@
 */
 
 .dividing-lines-container {
-  margin: 5px 0;
+  
   width: 100%;
   height: 10px;
+  display: inline-block;
 }
 
 .dividing-line {
@@ -54,8 +56,8 @@
   margin-left: 28px;
   border: none;
   background-color: rgba(46, 46, 46, 0.212);
-  align-items: center;
 }
+
 
 /*Центральная панель-------------------------------------------------------------------------------------------------------------------------------------
 */
@@ -66,30 +68,76 @@
   height: 100%;
 }
 
-.с-panel-avatar {
-  background-color: rgb(255, 0, 0);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 100%;
-  margin-bottom: 15px;
-  display: flex;
+.wrap{
+  margin: 10px;
+
 }
 
-/* Высота блока зависит*/
-.test1{
-  background-color: #1100ff;
+.c-panel-avatar {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.canvas{
+  background-color: #6d6d6d62;
   width: 210px;
   height: 333px;
   margin: 10px 10px;
 }
 
-.с-panel-friends {
-  background-color: rgb(66, 72, 88);
-  width: 100%;
-  height: 300px;
-  margin: 10px 0;
+.settings{
+  background-color: #2787f5;
+  width: 210px;
+  height: 35px;
+  margin: 10px 10px;
 }
 
+.btn-settings{
+  display: inline-block;
+  height: 35px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.c-panel-list-friends {
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.c-friends-button{
+  background-color: #9ebce962;
+  display: flex;
+  
+  height: 25px;
+  color: #a0a0a0;
+}
+
+.c-friends-item{
+  background-color: #9ebce962;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+.c-friends-list{
+  background-color: #9ebce962;
+  margin-top: 10px;
+  height: 200px;
+  width: 100%;
+ 
+}
+.c-freind-n{
+  background-color: #0dc25286;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50px;
+}
 /*Панель информации-------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -101,7 +149,54 @@
 
 .panel-info {
   background-color: #ffffff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
   width: 100%;
-  height: 232px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.top-info{
+  background-color: #9ebce962;
+  height: 50px;
+}
+
+.r-item-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.r-item-status{
+  font-size: 12px;
+}
+.central-info{
+  background-color: #9ebce962;
+  height: 80px;
+}
+
+.bottom-info{
+  background-color: #9ebce962;
+}
+
+.bottom-info{
+ display: flex;
+}
+
+.unicount{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: #0dc25286;
+}
+
+.new-post{
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15px;
+}
+.wall{
+  height: 1000px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15px;
 }
